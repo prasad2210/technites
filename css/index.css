@@ -1,0 +1,57 @@
+.section-name{
+    color: white !important;
+    /* min-height: 300px; */
+}
+
+.active .nav-link{
+    color: #fb9902 !important;
+}
+.section-name:hover{
+    color: #515151
+}
+
+.bg-color{
+    background-color: #0D0F11;
+}
+
+.scrolling-navbar{
+    padding: 30px 0;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+    
+}
+.navbar-toggler{
+    color:white !important;
+}
+
+
+/* .carousel-item img{
+	height: 100vh;
+} */
+
+@media (min-width: 991px) {
+    .carousel-item img{
+        height: 100vh;
+    }
+  }
+
+.title b{
+    font-size: 150%;
+    color: #fb9902;
+    /* font-weight: 150%; */
+}
+.title a{
+    margin: auto;
+}
+
+.aboutUs{
+    height: 100vh;
+    background-color: #0D0F11;
+}
+
+.hr-line{
+  border-bottom: 1px #fb9902 solid;
+  padding-bottom: 20px;
+}

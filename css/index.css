@@ -1,3 +1,7 @@
+p{
+    color: white;
+}
+
 .section-name{
     color: white !important;
     /* min-height: 300px; */
@@ -27,9 +31,9 @@
 }
 
 
-/* .carousel-item img{
+.carousel-item img{
 	height: 100vh;
-} */
+}
 
 @media (min-width: 991px) {
     .carousel-item img{
@@ -47,11 +51,82 @@
 }
 
 .aboutUs{
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #0D0F11;
 }
 
 .hr-line{
   border-bottom: 1px #fb9902 solid;
   padding-bottom: 20px;
+}
+
+.aboutUsRow .divCenter{
+    padding: 15% 10%; 
+}
+
+.logo{
+    text-align: center;
+
+}
+
+.logo .img{
+    width: 60%;
+    margin: auto;
+}
+
+.activities{
+    background-color: #131619;
+}
+
+.clubTitle{
+    padding: 5% 0;
+}
+
+.componentRows{
+    padding: 5% 0;
+}
+
+.component h5{
+    color: white;
+    /* font-size: 150%; */
+    padding-bottom: 1%;
+}
+
+.component p{
+    font-size: 90%;
+}
+
+.imgResize img{
+    width: 100%;
+}
+
+@media (max-width: 991px){
+    .imgResize img{
+        width: 70%;
+        /* text-align: center; */
+        justify-content: center;
+    }
+    .verticalImg img{
+        height: 0;
+    }
+
+
+}
+
+.extra{
+    background-color: #0D0F11;
+    height: 100vh;
+}
+
+
+.footer{
+    background-color: #131619;
+}
+
+.contact{
+    padding: 3% 0;
+}
+
+.footerLi p{
+    margin-bottom: 1% !important;
 }

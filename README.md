@@ -1,3 +1,3 @@
 # technites
 
-https://github.com/prasad2210/technites
+https://prasad2210.github.io/technites/

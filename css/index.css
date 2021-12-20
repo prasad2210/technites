@@ -31,15 +31,19 @@ p{
 }
 
 
-.carousel-item img{
-	height: 100vh;
+.carousel-item{
+	height: 350px;
 }
 
 @media (min-width: 991px) {
-    .carousel-item img{
+    .carousel-item{
         height: 100vh;
     }
   }
+
+.carousel-item img{
+	height: 100%;
+}
 
 .title b{
     font-size: 150%;

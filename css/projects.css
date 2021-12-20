@@ -1,12 +1,18 @@
+.cover{
+    height: 350px;
+}
+
 @media (min-width: 991px) {
     .cover{
         height: 100vh;
     }
   }
 
+
 .cover img{
-    height: 100vh;
+    height: 100%;
 }
+
 
 p{
     color: white;

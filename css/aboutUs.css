@@ -1,3 +1,7 @@
+.cover{
+    height: 350px;
+}
+
 @media (min-width: 991px) {
     .cover{
         height: 100vh;
@@ -5,8 +9,9 @@
   }
 
 .cover img{
-    height: 100vh;
+    height: 100%;
 }
+
 
 p{
     color: white;
@@ -55,6 +60,19 @@ p{
 }
 /* header */
 
+.backColor{
+    background-color: #0D0F11;
+    padding: 5% 0;
+}
+
+.columns{
+    margin: auto;
+    
+}
+
+.heading{
+    color: #fb9902;
+}
 
 
 

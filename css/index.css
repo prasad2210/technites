@@ -7,6 +7,34 @@ p{
     /* min-height: 300px; */
 }
 
+.titlePic{
+    background-image: url("../images/cover2.jpg");
+    /* background-repeat: no-repeat, repeat; */
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fb9902;
+    padding: 18px;
+    font-size: 200%;
+    letter-spacing: 10px;
+  }
+
 .active .nav-link{
     color: #fb9902 !important;
 }
@@ -77,6 +105,11 @@ p{
     width: 60%;
     margin: auto;
 }
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
 
 .activities{
     background-color: #131619;
@@ -114,13 +147,148 @@ p{
         height: 0;
     }
 
+}
 
+.caption img{
+    width: 30%;
+}
+
+@media (max-width: 991px){
+    .caption img {
+        width: 50%;
+    }
+}
+
+.projects{
+    background-color: #0D0F11;
+    padding: 10%;
+    margin-bottom: 10%;
+}
+
+
+
+.projectRow .d-flex{
+    padding-bottom: 10%;
+}
+
+.card{
+    border: none;
+}
+
+.card-body{
+    background-color: #131619;
+}
+
+.card-body h4{
+    color: #fb9902;
+}
+
+.card-link {
+    text-align: right;
 }
 
 .extra{
     background-color: #0D0F11;
-    height: 100vh;
+    /* height: 100vh; */
+    padding-bottom: 10%;
+
 }
+
+
+.gallary{
+    background-color: #131619;
+}
+
+.gallaryRows{
+    padding-top: 5%;
+}
+
+.tiles{
+    width: 100%;
+    margin: auto;
+}
+
+.tiles .tile {
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+    opacity: 0.99;
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  }
+  .tiles .tile:before {
+    content: "";
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+    width: 100%;
+    height: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 2;
+    transition-property: top, opacity;
+    transition-duration: 0.3s;
+  }
+  .tiles .tile img {
+    display: block;
+    max-width: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  .tiles .tile .details {
+    font-size: 16px;
+    padding: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+  }
+  .tiles .tile .details span {
+    display: block;
+    opacity: 0;
+    position: relative;
+    top: 100px;
+    transition-property: top, opacity;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+  }
+  .tiles .tile .details .title {
+    line-height: 1;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .tiles .tile .details .info {
+    line-height: 1.2;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .tiles .tile:focus:before,
+  .tiles .tile:focus span, .tiles .tile:hover:before,
+  .tiles .tile:hover span {
+    opacity: 1;
+  }
+  .tiles .tile:focus:before, .tiles .tile:hover:before {
+    top: 50%;
+  }
+  .tiles .tile:focus span, .tiles .tile:hover span {
+    top: 0;
+  }
+  .tiles .tile:focus .title, .tiles .tile:hover .title {
+    transition-delay: 0.15s;
+  }
+  .tiles .tile:focus .info, .tiles .tile:hover .info {
+    transition-delay: 0.25s;
+  }
+
+  .tile img{
+      width: 100% !important;
+      height: 320px;
+  }
+
+
 
 
 .footer{
@@ -133,4 +301,9 @@ p{
 
 .footerLi p{
     margin-bottom: 1% !important;
+}
+
+.footerLi p a{
+    color: white;
+    text-decoration: none;
 }
